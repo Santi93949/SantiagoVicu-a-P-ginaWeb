@@ -3,113 +3,79 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página Web - Santiago Vicuña Failoc</title>
-
+    <meta name="description" content="Página web de Santiago Vicuña Failoc para el curso de Pensamiento Computacional." />
+    <title>Mi Página Web - Santiago Vicuña Failoc</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f4;
+            color: #1b3d1f;
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', sans-serif;
-            background: #f4f8f4;
-            color: #1d2b1f;
+        }
+        header {
+            background-color: #2e5c34;
+            color: white;
+            padding: 20px;
             text-align: center;
         }
-
-        header {
-            background: #2e4d38;
-            padding: 35px;
-            color: #ffffff;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.6rem;
-        }
-
-        .section {
-            margin-top: 40px;
+        section {
             padding: 20px;
+            margin: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
         }
-
+        h2 {
+            color: #2e5c34;
+        }
+        a {
+            color: #2e5c34;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
         ul {
             list-style: none;
             padding: 0;
-            font-size: 1.2rem;
-            line-height: 2.2rem;
         }
-
-        a {
-            color: #2e4d38;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: #16301f;
-        }
-
-        footer {
-            margin-top: 40px;
-            padding: 20px;
-            background: #1f3527;
-            color: white;
+        li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
-
 <body>
-
     <header>
-        <h1>Mi Página Web – Santiago Vicuña Failoc</h1>
+        <h1>Mi Página Web - Santiago Vicuña Failoc</h1>
     </header>
 
-    <!-- PRESENTACIÓN -->
-    <div class="section">
-        <h2>Bienvenido</h2>
-        <p>Hola, soy <strong>Santiago Vicuña Failoc</strong></p>
-        <p>Estudiante del curso de <strong>Pensamiento Computacional</strong> en la UCSP.</p>
-        <p>Profesor: 
-            <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">
-                Ernesto Cuadro Vargas
-            </a>
-        </p>
-    </div>
+    <section>
+        <h2>Sobre mí</h2>
+        <p><strong>Nombre:</strong> Santiago Vicuña Failoc</p>
+        <p><strong>Curso:</strong> Pensamiento Computacional</p>
+        <p><strong>Profesor:</strong> Ernesto Cuadro Vargas</p>
+        <p><strong>LinkedIn del profesor:</strong> <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Perfil de Ernesto Cuadro Vargas</a></p>
+    </section>
 
-    <!-- COMPAÑEROS -->
-    <div class="section">
-        <h2>Mis Compañeros</h2>
+    <section>
+        <h2>Mis compañeros</h2>
         <ul>
-            <li><a href="https://cesarluisgonzalesmeneses.github.io/paginaweb/" target="_blank">César Luis Gonzales Meneses</a></li>
-            <li><a href="https://flaviamicaeladiazzevallos1.github.io/" target="_blank">Flavia Micaela Díaz Zevallos</a></li>
-            <li><a href="https://pari-dot.github.io/Mauricio.github.io/" target="_blank">Mauricio Pari</a></li>
-            <li><a href="https://chaskacandia.github.io/chaskacandiaochoa.github.io/" target="_blank">Chaska Candia Ochoa</a></li>
-            <li><a href="https://Juanquispepandia-code.github.io/" target="_blank">Juan Quispe Pandia</a></li>
+            <li><strong>César Luis Gonzales Meneses:</strong> <a href="https://cesarluisgonzalesmeneses.github.io/paginaweb/" target="_blank">Página web</a></li>
+            <li><strong>Flavia Micaela Díaz Zevallos:</strong> <a href="https://flaviamicaeladiazzevallos1.github.io/" target="_blank">Página web</a></li>
+            <li><strong>Mauricio Pari:</strong> <a href="https://pari-dot.github.io/Mauricio.github.io/" target="_blank">Página web</a></li>
+            <li><strong>Chaska Candia Ochoa:</strong> <a href="https://chaskacandia.github.io/chaskacandiaochoa.github.io/" target="_blank">Página web</a></li>
+            <li><strong>Juan Quispe Pandia:</strong> <a href="https://juanquispepandia-code.github.io/" target="_blank">Página web</a></li>
         </ul>
-    </div>
+    </section>
 
-    <!-- MIS DATOS -->
-    <div class="section">
-        <h2>Mis Datos</h2>
-        <p><strong>Correo:</strong> 
-            <a href="mailto:santiago.vicuna@ucsp.edu.pe">santiago.vicuna@ucsp.edu.pe</a>
-        </p>
-
-        <p><strong>LinkedIn:</strong> 
-            <a href="https://www.linkedin.com/in/santiago-vicu%C3%B1a-failoc-25b33b390" target="_blank">
-                Mi Perfil
-            </a>
-        </p>
-
-        <p><strong>Instagram:</strong> 
-            <a href="https://www.instagram.com/shanti_fv" target="_blank">@shanti_fv</a>
-        </p>
-    </div>
-
-    <footer>
-        © 2025 Santiago Vicuña Failoc – UCSP
-    </footer>
-
+    <section>
+        <h2>Contacto</h2>
+        <p><strong>Correo:</strong> <a href="mailto:santiago.vicuna@ucsp.edu.pe">santiago.vicuna@ucsp.edu.pe</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/santiago-vicu%C3%B1a-failoc-25b33b390?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">Mi perfil</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/shanti_fv?igsh=MW13OGI3cmo5cW52Yw==" target="_blank">@shanti_fv</a></p>
+    </section>
 </body>
 </html>
 
